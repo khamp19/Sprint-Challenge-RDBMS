@@ -41,11 +41,11 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Follow these steps for starting your project.
 
-- [ ] Create a forked copy of this project.
+- [x] Create a forked copy of this project.
 - [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
@@ -75,7 +75,6 @@ Feel free to name the tables and fields anything you want. **Add relationships**
 
 - [ ] Build the database and tables using knex migrations. **Seeding is not needed**.
 - [ ] Build the API with the following endpoints:
-
   - [ ] POST for adding projects.
   - [ ] POST for adding actions.
   - [ ] GET for retrieving a `project` by its `id` that returns an object with the following structure:

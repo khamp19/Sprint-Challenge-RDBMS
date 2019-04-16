@@ -1,0 +1,26 @@
+{
+  "name": "sprint-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khamp19/Sprint-Challenge-RDBMS.git"
+  },
+  "author": "khamp19",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khamp19/Sprint-Challenge-RDBMS/issues"
+  },
+  "homepage": "https://github.com/khamp19/Sprint-Challenge-RDBMS#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "knex": "^0.16.5",
+    "knex-cleaner": "^1.1.4",
+    "nodemon": "^1.18.11",
+    "sqlite3": "^4.0.6"
+  }
+}
