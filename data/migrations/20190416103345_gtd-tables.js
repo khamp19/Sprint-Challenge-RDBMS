@@ -18,7 +18,6 @@ exports.up = function(knex, Promise) {
         .unique()
       tbl
         .string('description', 255)
-        .notNullable()
       tbl
         .boolean('complete')
       tbl.timestamps(true, true)
@@ -31,7 +30,6 @@ exports.up = function(knex, Promise) {
         .notNullable()
       tbl
         .string('description', 255)
-        .notNullable()
       tbl
         .integer('project_id')
         .unsigned()
